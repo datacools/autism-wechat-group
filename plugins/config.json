@@ -1,0 +1,46 @@
+{
+    "godcmd": {
+        "password": "",
+        "admin_users": [
+            ""
+        ]
+    },
+    "banwords": {
+        "action": "replace",
+        "reply_filter": true,
+        "reply_action": "ignore"
+    },
+    "tool": {
+        "tools": [
+            "python",
+            "url-get",
+            "terminal",
+            "meteo-weather"
+        ],
+        "kwargs": {
+            "top_k_results": 2,
+            "no_default": false,
+            "model_name": ""
+        }
+    },
+    "linkai": {
+        "group_app_map": {},
+        "midjourney": {
+            "enabled": false,
+            "auto_translate": false,
+            "img_proxy": false,
+            "max_tasks": 3,
+            "max_tasks_per_user": 1,
+            "use_image_create_prefix": false
+        },
+        "summary": {
+            "enabled": true,
+            "group_enabled": true,
+            "max_file_size": 5000,
+            "type": [
+                "FILE",
+                "SHARING"
+            ]
+        }
+    }
+}

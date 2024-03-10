@@ -1,0 +1,19 @@
+version: '3'
+services:
+  suanku:
+    env_file:
+      - .env
+    image: ${IMAGE_NAME}
+    container_name: ${CONTAINER_NAME}
+    restart: on-failure:3
+    networks:
+      - chatgpt_network
+    security_opt:
+      - seccomp:unconfined  #允许容器中的进程使用所有系统调用
+    volumes:
+      - ${WX_CONFIG_FILE}:/app/config.json
+      - ${WX_PLUGINS}:/app/plugins/config.json 
+
+networks:
+  chatgpt_network:
+    driver: bridge

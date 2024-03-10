@@ -1,0 +1,31 @@
+{
+    "debug": false,
+    "channel_type": "wx",
+    "text_to_image": "",
+    "voice_to_text": "linkai",
+    "text_to_voice": "linkai",
+    "proxy": "",
+    "hot_reload": false,
+    "single_chat_prefix": [
+        ""
+    ],
+    "single_chat_reply_prefix": "",
+    "group_chat_reply_prefix": "【助理回复】 ",
+    "group_chat_in_one_session": [],
+    "group_chat_prefix": [
+        "@智能助理"
+    ],
+    "group_name_white_list": [
+        "ALL_GROUP"
+    ],
+    "image_create_prefix": [],
+    "speech_recognition": true,
+    "group_speech_recognition": true,
+    "group_chat_exit_group": true,
+    "voice_reply_voice": false,
+    "conversation_max_tokens": 2500,
+    "expires_in_seconds": 3600,
+    "use_linkai": true,
+    "linkai_api_key": "",
+    "linkai_app_code": ""
+}
